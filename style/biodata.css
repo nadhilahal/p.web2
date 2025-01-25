@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  background-color: #131313;
+}
+
+marquee {
+  padding: 1rem;
+  color: #ffe4b5;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  background-image: url(image/bg.png) 50% 20px no-repeat;
+  background-size: cover;
+}
+
+.main img {
+  width: 480px;
+}
+
+.bio {
+  background-color: #ffe4b5;
+  width: 100vh;
+  border-radius: 30px;
+  border: 3px solid #8e1a22;
+  padding: 2rem;
+  height: fit-content;
+}
+td {
+  padding: 0.5rem;
+}
+.cnt {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+}
+a {
+  display: flex;
+  align-items: center;
+  background-color: #8e1a22;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+}
+p {
+  margin: 0;
+}
+
+.materi {
+  background-color: #ffe4b5;
+  width: 100vh;
+  border-radius: 30px;
+  border: 3px solid #8e1a22;
+  padding: 2rem;
+  margin-top: 1rem;
+  height: fit-content;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 1rem;
+}
